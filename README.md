@@ -40,3 +40,9 @@
 
 ### Part V
 > SQL stored procedures
+
+- This Section of the assignment required me to create stored procedures that executed two functions:
+1. The first stored procedure inserts user IDs and any other user information that can be considered viable for the author table
+2. The second stored procedure inserts any data found useful for the posting table
+
+>> code for this section can be found [Here](Code/cit381-assign07-procedures.sql)
