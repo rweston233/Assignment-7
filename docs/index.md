@@ -1,37 +1,48 @@
-## Welcome to GitHub Pages
+# Assignment-7
 
-You can use the [editor on GitHub](https://github.com/rweston233/Assignment-7/edit/main/docs/index.md) to maintain and preview the content for your website in Markdown files.
+## Assignment 7 Learning Objectives
+> - Using an online JSON data source, create a database model that will hold the data, and import the JSON data into MySQL.
+> - Also create SQL Views & stored procedures, and use them in PostMan(REST) to read queries.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Part I
+> Identify JSON Data Source
 
-### Markdown
+- Every reddit includes a JSON version of the postings.
+- I Extracted the raw JSON data from a subreddit called **r/formuladank**, and saved the raw data off of chrome to a file
+  - see raw data [Here](Code/cit381-assign07-reddit.json)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Part II
+> Create a model to hold the JSON data collected
+> - Design a database to store the reddit information.
 
-```markdown
-Syntax highlighted code block
+- After I had analyzed the JSON, and determined what tables will be needed, I created primary keys for each table.
+  - One Table to hold post information
+  - Another table to hold author information
+  - A third table to hold comment information
+![Image of my Schema](Images/cit381-assign07-schema.png)
 
-# Header 1
-## Header 2
-### Header 3
 
-- Bulleted
-- List
+### Part III
+> Manually entering rows of JSON data into MySQL
 
-1. Numbered
-2. List
+- This part of the assignment required me to read the JSON file and determine what information I had to pull in order to populate my three tables.
+  - See my data in this [file](Code/cit381-assign07-data.csv)
 
-**Bold** and _Italic_ and `Code` text
+### Part IV
+>SQL View
 
-[Link](url) and ![Image](src)
-```
+- In this part of the assignment I had created one meaningful view that listed the: post ID, post title, author of the post, and the age of the post in days.
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+![Image of my View](Images/View.png)
 
-### Jekyll Themes
+  - for SQL code see [Here](Code/cit381-assign07-view.sql)
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/rweston233/Assignment-7/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
-### Support or Contact
+### Part V
+> SQL stored procedures
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+- This Section of the assignment required me to create stored procedures that executed two functions:
+1. The first stored procedure inserts user IDs and any other user information that can be considered viable for the author table
+2. The second stored procedure inserts any data found useful for the posting table
+
+>> code for this section can be found [Here](Code/cit381-assign07-procedures.sql)
