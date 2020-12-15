@@ -1,0 +1,37 @@
+Sheet 1: author
+author_id,name
+1,septian19
+2,Daavid232
+3,babywanker
+4,Shiinobu-
+5,notkhaos
+6,Formulagodcomments
+7,xleonfwx
+8,Cathodicum
+9,mayqueen53
+
+Sheet 1: post
+post_id,title,link,score,comment_count,cross_post_count,post_date,author_id
+1,nothing_special_just_danny_ric_vibin,https://v.redd.it/n21a66a3w5061,1424,27,0,2020-11-19 09:00:27,1
+2,the_pole_sitters_in_2020,https://i.redd.it/6ezqu4j218061.jpg,239,5,0,2020-11-19 16:11:11,1
+3,2_tattoos_actually,https://i.redd.it/57thezlf86061.jpg,551,6,0,2020-11-19 07:16:43,2
+4,faster_than_sf1000,https://i.redd.it/955cop4qd5061.jpg,446,10,1,2020-11-19 07:15:57,3
+5,this_post_will_get_more_points_than_russell,https://i.redd.it/wvokrdkev4061.jpg,103,6,0,2020-11-19 14:37:37,4
+6,false_advertisement,https://i.redd.it/3lvyt0s5v5061.jpg,147612,740,11,2020-11-19 08:54:27,5
+7,lego_recreation_of_racing_points_failed_pit_stop,https://i.redd.it/9vc6fp50b0061.jpg,13653,93,2,2020-11-18 14:12:33,6
+8,pls_red_bull_we_need_costumers,https://i.redd.it/z3rvx4oh45061.jpg,259,8,0,2020-11-19 06:24:58,7
+9,sinning_pokemon,https://v.redd.it/fz0ybc9n47061,74,2,0,2020-11-19 13:09:43,8
+10,the_aston_martin_car_for_next_season_wanda,https://i.redd.it/y1brjsmm09061.jpg,21,3,0,2020-11-19 19:30:26,9
+
+Sheet 1: comments
+comment_id,link,post_id,author_id
+1,https://www.reddit.com/r/formuladank/comments/jwzfed/,1,1
+2,https://www.reddit.com/r/formuladank/comments/jx5hy0/,2,1
+3,https://www.reddit.com/r/formuladank/comments/jx0628/,3,2
+4,https://www.reddit.com/r/formuladank/comments/jwy9e4/,4,3
+5,https://www.reddit.com/r/formuladank/comments/jwwzbe/,5,4
+6,https://www.reddit.com/r/formuladank/comments/jwzd2u/,6,5
+7,https://www.reddit.com/r/formuladank/comments/jwgg96/,7,6
+8,https://www.reddit.com/r/formuladank/comments/jwxmyz/,8,7
+9,https://www.reddit.com/r/formuladank/comments/jx2dz8/,9,8
+10,https://www.reddit.com/r/formuladank/comments/jx9fz7/,10,9
