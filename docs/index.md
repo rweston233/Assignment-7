@@ -19,7 +19,7 @@
   - One Table to hold post information
   - Another table to hold author information
   - A third table to hold comment information
-![Image of my Schema](../Images/cit381-assign07-schema.png)
+![Image of my Schema](cit381-assign07-schema.png)
 
 
 ### Part III
